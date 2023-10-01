@@ -2,7 +2,7 @@
 
 class Demo {
   int x = 10;
-  void Demo() {
+  void Demo() { // Error: constructor can't have a return type
     print("Constructor");
   }
 }
